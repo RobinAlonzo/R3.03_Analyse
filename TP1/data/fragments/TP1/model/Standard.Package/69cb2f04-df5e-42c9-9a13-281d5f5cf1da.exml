@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="tp1" version="4">
+  <OBJECT>
+    <ID name="tp1" mc="Standard.Package" uid="69cb2f04-df5e-42c9-9a13-281d5f5cf1da"/>
+    <PID name="TP1" mc="Standard.Project" uid="011e595b-32d0-4715-bb1d-47a689adee6c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[tp1]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="9a0b2c23-bbbd-4599-adef-22ece0e5c090"/>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="Responsable Administratif" mc="Standard.Actor" uid="c8986503-11e4-47cd-b382-a9debf6bf061"/>
+        <COMPID name="Gérer les réunions" mc="Standard.UseCase" uid="57c84d7c-6aad-459a-a959-b42a5188c54a"/>
+        <COMPID name="Participants" mc="Standard.Actor" uid="e96a82e6-981c-4a6b-9684-d440039d2317"/>
+        <COMPID name="Participer à une réunion" mc="Standard.UseCase" uid="073ad3f7-07ae-4612-941c-ee50080bbe2e"/>
+        <COMPID name="Se connecter" mc="Standard.UseCase" uid="98afe895-3e27-4fa0-925b-10cd30227cbf"/>
+        <COMPID name="Responsable Administratif" mc="Standard.Actor" uid="715ed86a-38a4-4c29-bac3-ec8a2d620cc2"/>
+        <COMPID name="Participants" mc="Standard.Actor" uid="e72a13db-ff95-479e-a5a2-57c2332f83ac"/>
+        <COMPID name="Parents" mc="Standard.Actor" uid="6b3984a9-3e2f-4bc3-b188-c74cbe6bdf5e"/>
+        <COMPID name="Professeurs" mc="Standard.Actor" uid="f56e20e8-45e3-4090-9515-5157da9596df"/>
+        <COMPID name="Gérer une réunion" mc="Standard.UseCase" uid="af882cfb-fe1b-4349-b067-ea85652bbf59"/>
+        <COMPID name="Confirmer présence à la réunion" mc="Standard.UseCase" uid="1d3e1005-f29a-43ee-a528-b3ae1cff9cdb"/>
+        <COMPID name="Se connecter" mc="Standard.UseCase" uid="56da7c86-9c0c-4cb3-a839-ccee4f24567d"/>
+        <COMPID name="Choix des professeurs à rencontrés" mc="Standard.UseCase" uid="8127f4a1-856d-42a6-9c5f-90892877aa8f"/>
+        <COMPID name="Participer à une réunion" mc="Standard.UseCase" uid="41e669c1-2ef3-4542-83d8-f88ee8b1a65a"/>
+        <COMPID name="Responsable administratif" mc="Standard.Actor" uid="c883a1b0-23fb-4353-bbe0-6ddd53e19e13"/>
+        <COMPID name="Modifier une réunion" mc="Standard.UseCase" uid="175ed2bb-f949-4a54-811f-7a60b2d96394"/>
+        <COMPID name="Créer une réunion" mc="Standard.UseCase" uid="154c1b24-be30-4714-abb4-e0bf524cfd5b"/>
+        <COMPID name="Annuler une réunion" mc="Standard.UseCase" uid="698c0952-975c-4f3d-a502-7e28e7f3412e"/>
+        <COMPID name="Confirmer sa présence" mc="Standard.UseCase" uid="1109867e-30a8-4382-b808-80eda991c061"/>
+        <COMPID name="Participants" mc="Standard.Actor" uid="f2b80c6f-216b-4889-8a3a-722b2990b048"/>
+        <COMPID name="Parents" mc="Standard.Actor" uid="f5f27b03-86c6-46e6-9014-bca5d679d5cf"/>
+        <COMPID name="Professeurs" mc="Standard.Actor" uid="7e01af1f-707f-49e9-9b88-ff6b84d76137"/>
+        <COMPID name="Participants" mc="Standard.Actor" uid="6162a142-aabc-47da-871b-ef52dbbb7ba7"/>
+        <COMPID name="Indiquer son arrivée" mc="Standard.UseCase" uid="bf74324d-5d1a-4c88-a861-e429edeb27e6"/>
+        <COMPID name="Indiquer son départ" mc="Standard.UseCase" uid="de5626c3-ac70-4016-9616-be3ea57d98e5"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Question1" mc="Standard.UseCaseDiagram" uid="747c3bba-2c78-47d8-b743-971b77c84a43"/>
+        <COMPID name="Question 2" mc="Standard.UseCaseDiagram" uid="2d6783f7-eaa7-4149-b9b1-eaa14cb2361d"/>
+        <COMPID name="Question 3a" mc="Standard.UseCaseDiagram" uid="2463c545-f05f-4771-8696-bc077b464362"/>
+        <COMPID name="Question 3b" mc="Standard.UseCaseDiagram" uid="c81648b8-5d4d-4c0c-81dd-2cff0cabc22c"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
